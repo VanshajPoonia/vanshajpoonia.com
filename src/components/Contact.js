@@ -75,13 +75,15 @@ export default function Contact() {
             ></iframe>
             <form
               className="form"
-              action="https://docs.google.com/forms/d/e/1FAIpQLSdEMQkixmFRF-7EbivkHADXQ9kfbpazop6B3zh1YyK8hXLKDQ/viewform?usp=sf_link"
+              action="https://formsubmit.co/vanshajfirebase@gmail.com"
+              // action="https://docs.google.com/forms/d/e/1FAIpQLSdEMQkixmFRF-7EbivkHADXQ9kfbpazop6B3zh1YyK8hXLKDQ/viewform?usp=sf_link"
               // action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfw-BZLTTNI3Y9D9LbCBb5b56lpbOokb2P1win1ky8SP5lt8A/formResponse"
               method="post"
               target="hidden_iframe"
               autoComplete="off"
               onSubmit={handleSubmit}
             >
+              <input type="hidden" name="_subject" value="Vanshajpoonia.com" />
               <motion.input
                 id="name"
                 type="text"
