@@ -28,7 +28,7 @@ export default function Skills() {
             </span>
           </h1>
           <p align="LEFT">
-            The main area of my expertise is Web development and Python.
+            The main area of my expertise is Web development and App development.
             <br />
             <br />
             Tech I know: &nbsp;&nbsp;{" "}
@@ -43,7 +43,7 @@ export default function Skills() {
             &nbsp;&nbsp; • &nbsp;&nbsp; TailwindCSS , ChakraUI , MaterialUI ,
             Bootstrap
             <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; NodeJs , Express , NestJs , MongoDB
+            &nbsp;&nbsp; • &nbsp;&nbsp; NodeJs , Express , NestJs , MongoDB, Sanity
             <br />
             &nbsp;&nbsp; • &nbsp;&nbsp; Django and Flask (Python)
             <br />
