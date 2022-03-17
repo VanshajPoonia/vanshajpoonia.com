@@ -52,6 +52,7 @@ export default function Home() {
             <span className="blast">t</span> */}
             <span className="blast">,</span>
             <br />
+            <span className="blast">a&nbsp;</span>
             <span className="blast">w</span>
             <span className="blast">e</span>
             <span className="blast">b&nbsp;</span>
@@ -66,7 +67,7 @@ export default function Home() {
             <span className="blast">r</span>
             <span className="blast">.</span>
           </h1>
-          <h2>Full Stack Developer / Game Developer / Freelancer</h2>
+          <h2>Full Stack Developer / App Developer / Web 3.0 Developer / Game Developer / Freelancer</h2>
           <div className="icons">
             <a href="https://www.linkedin.com/in/vanshajpoonia/">
               <i className="fab fa-linkedin fa-3x"></i>
