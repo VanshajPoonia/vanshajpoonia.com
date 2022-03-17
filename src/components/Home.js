@@ -44,7 +44,7 @@ export default function Home() {
             <span className="blast">s</span>
             <span className="blast">h</span>
             <span className="blast">a</span>
-            <span className="blast">j</span>
+            <span className="blast">j&nbsp;</span>
             <span className="blast">P</span>
             <span className="blast">o</span>
             <span className="blast">o</span>
