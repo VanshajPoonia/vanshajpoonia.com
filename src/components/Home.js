@@ -6,7 +6,7 @@ import guitarAnim from "../script/guitarAnim";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Vanshaj Poonia | Full Stack Developer | Game Developer";
+    document.title = "Vanshaj Poonia | Full Stack Developer | Open Source Dev | Entrepreneur | Game Dev";
 
     bounce();
     guitarAnim();
@@ -73,7 +73,7 @@ export default function Home() {
             <span className="blast">r</span>
             <span className="blast">.</span>
           </h1>
-          <h2>Full Stack Developer / App Developer / Web 3.0 Developer / Game Developer / Freelancer</h2>
+          <h2>Full-Stack Developer/ Web 3.0 Dev / Entrepreneur / App Dev  / Game Dev / Freelancer</h2>
           <div className="icons">
             <a href="https://www.linkedin.com/in/vanshajpoonia/">
               <i className="fab fa-linkedin fa-3x"></i>
@@ -84,9 +84,15 @@ export default function Home() {
             <a href="https://twitter.com/VanshajPoonia/">
               <i className="fab fa-twitter fa-3x"></i>
             </a>
-            <a href="https://vanshaj-poonia.itch.io/">
-              <i className="fab fa-itch-io fa-3x"></i>
+            <a href="https://dev.to/vanshajpoonia/">
+              <i className="fab fa-dev fa-3x"></i>
             </a>
+            <a href="https://www.instagram.com/vanshajpoonia/">
+              <i className="fab fa-instagram fa-3x"></i>
+            </a>
+            {/* <a href="https://vanshaj-poonia.itch.io/">
+              <i className="fab fa-itch-io fa-3x"></i>
+            </a> */}
           </div>
         </div>
 

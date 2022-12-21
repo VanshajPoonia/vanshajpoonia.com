@@ -31,31 +31,38 @@ export default function Skills() {
             The main area of my expertise is Web development and App development.
             <br />
             <br />
-            Tech I know: &nbsp;&nbsp;{" "}
+            Main Tech: &nbsp;&nbsp;{" "}
             <b>
-              Next.js &nbsp;|&nbsp; Typescript &nbsp;|&nbsp; C/C++ &nbsp;|&nbsp;
-              JavaScript &nbsp;|&nbsp; React &nbsp;|&nbsp; Nodejs
+              Next.js &nbsp;|&nbsp; React &nbsp;|&nbsp; Typescript &nbsp;|&nbsp;
+              JavaScript &nbsp;|&nbsp; Nodejs |&nbsp; TailwindCSS
             </b>
             <br />
             <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; ReactJs + NextJs , VueJs
+            &nbsp;&nbsp; • &nbsp;&nbsp; ReactJs + NextJs , VueJs, Redux
             <br />
             &nbsp;&nbsp; • &nbsp;&nbsp; TailwindCSS , ChakraUI , MaterialUI ,
-            Bootstrap
+            Bootstrap, Scss
             <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; NodeJs , Express , NestJs , MongoDB, Sanity
+            &nbsp;&nbsp; • &nbsp;&nbsp; NodeJs , Express , NestJs , GraphQL, php
             <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; Django and Flask (Python)
+            &nbsp;&nbsp; • &nbsp;&nbsp; MongoDB, Sanity, Redis, MySQL
+            <br />
+            &nbsp;&nbsp; • &nbsp;&nbsp; Solidity, Rust
+            <br />
+            &nbsp;&nbsp; • &nbsp;&nbsp; AWS , DigitalOcean , Firebase , Supabase, Heroku, Railway
+            <br />
+            &nbsp;&nbsp; • &nbsp;&nbsp; Docker, Kubernetes, Figma, Vercel
+            <br />
+            &nbsp;&nbsp; • &nbsp;&nbsp;  C/C++, Java, Python, Django (Python), Ruby On Rails
+            <br />
+            &nbsp;&nbsp; • &nbsp;&nbsp; React Native, Dart + Flutter
             <br />
             &nbsp;&nbsp; • &nbsp;&nbsp; OpenCV , Image Processing
             <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; Database Management (SQL)
-            <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; Data Science + Web Scraping + IT
-            Automation
-            <br />
-            &nbsp;&nbsp; • &nbsp;&nbsp; React Native
-            <br />
+            
+            {/* &nbsp;&nbsp; • &nbsp;&nbsp; Data Science + Web Scraping + IT
+            Automation */}
+            {/* <br /> */}
             &nbsp;&nbsp; • &nbsp;&nbsp; Blender + Unity3D
             <br />
             <br />

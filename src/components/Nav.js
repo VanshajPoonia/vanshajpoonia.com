@@ -100,10 +100,16 @@ export default function Nav() {
       {/* <a className="bkmrk" target="_blank" href="./Vanshaj Poonia's Resume.pdf"> */}
       <a
         className="bkmrk"
-        href="https://drive.google.com/file/d/1zdTdmMj9f6dJruoF0sMS2hyCrjhFOnNP/view?usp=sharing"
+        href="https://drive.google.com/file/d/1FKmqeAHw8_DMb3b9UIlf3HBeiPFqzvo0/view?usp=sharing"
         target="_blank"
         rel="noopener ener noreferrer"
       >
+      {/* <a
+        className="bkmrk"
+        href="https://drive.google.com/file/d/1zdTdmMj9f6dJruoF0sMS2hyCrjhFOnNP/view?usp=sharing"
+        target="_blank"
+        rel="noopener ener noreferrer"
+      > */}
         <img
           src="https://raw.githubusercontent.com/smrnjeet222/smrnjeet222/master/assets/blogdark.png"
           alt="Resume"
