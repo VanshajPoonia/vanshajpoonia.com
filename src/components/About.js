@@ -48,15 +48,17 @@ export default function About() {
             Loves to work on problems, quick learner,
             debugger and,
             <br />
-            a fan of "Ben 10" and Gaming.
+            an avid reader and a person who loves gaming more than NextJs.
             <br />
             <br />
             My Experience :<br />
-            - Founder, Hypnosys &#91;Present · 2 yrs 7 mos&#93; <br />
-            - Founder, Codash &#91;Dec 2021 - Present · 1 yr 1 mo&#93; <br />
+            - Founder, Hypnosys &#91;July 2020 - Present · 2 yrs 10 mos&#93; <br />
+            - Founder, Codash &#91;Dec 2021 - Present · 1 yr 4 mos&#93; <br />
+            - Chief Operating Officer, Brisk Media &#91;Feb 2023 - Present · 2 mos&#93; <br />
+            - Founder, Lexus Solutions  &#91;Feb 2023 - Present · 2 mos&#93; <br />
             - OSD, Google &#91;Oct 2022 - Nov 2022 · 2 mos&#93; <br />
             - Campus Evangelist, Codedamn &#91;Feb 2022 - Aug 2022 · 7 mos&#93; <br />
-            - Open Source Contributor, QuestDB &#91;Oct 2022 - Present&#93; <br />
+            - Open Source Contributor, QuestDB &#91;Oct 2022 - Present · 6 mos&#93; <br />
             - Open Source Contributor, Symbl.ai &#91;Oct 2021 - Aug 2022 · 11 mos&#93; <br />
             - Open Source Contributor, Appsmith &#91;Oct 2021 - Feb 2022 · 5 mos&#93; <br />
             - Information Technology Consultant, Bite n Shakes &#91;Oct 2021 - Dec 2021 · 3 mos&#93; <br />
