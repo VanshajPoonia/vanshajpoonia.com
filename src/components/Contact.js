@@ -156,10 +156,10 @@ export default function Contact() {
             >
               Or you can just mail me at ~&nbsp;
               <a
-                href="mailto:vanshajpoonia06@gmail.com"
+                href="mailto:hey@vanshajpoonia.com"
                 style={{ color: "#23ffde", fontSize: "1.3em" }}
               >
-                vanshajpoonia06@gmail.com
+                hey@vanshajpoonia.com
               </a>
             </motion.p>
           </div>
