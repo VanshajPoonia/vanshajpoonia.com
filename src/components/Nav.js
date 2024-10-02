@@ -86,13 +86,13 @@ export default function Nav() {
             </a>
           </li>
           <li>
-            <a
+            {/* <a
               href="https://twitter.com/VanshajPoonia"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-twitter"></i>
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>

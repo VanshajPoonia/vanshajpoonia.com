@@ -31,14 +31,14 @@ export const projects = [
     git: "https://github.com/VanshajPoonia/portfoliosite-sanity-jsm",
     live: "https://portfolio.vanshajpoonia.com/",
   },
-  {
-    img: "https://i.ibb.co/RC6NTKV/Screenshot-1889.png",
-    name: "Poogle",
-    ext: "vercel.app",
-    lang: "ssr",
-    git: "https://github.com/VanshajPoonia/poogle",
-    live: "https://poogle.vercel.app/",
-  },
+  // {
+  //   img: "https://i.ibb.co/RC6NTKV/Screenshot-1889.png",
+  //   name: "Poogle",
+  //   ext: "vercel.app",
+  //   lang: "ssr",
+  //   git: "https://github.com/VanshajPoonia/poogle",
+  //   live: "https://poogle.vercel.app/",
+  // },
   // {
   //   img: "blob:https://vercel.com/7bf659d7-f28c-4005-905e-f233fdcd5ba1",
   //   name: "Devify",
@@ -71,14 +71,14 @@ export const projects = [
     git: "https://github.com/VanshajPoonia/shopeee",
     live: "https://github.com/VanshajPoonia/shopeee",
   },
-  {
-    img: "https://i.ibb.co/DtMz2Xj/Screenshot-1894.png",
-    name: "Cryptoverse",
-    ext: "hypnosys.in",
-    lang: "ssr",
-    git: "https://github.com/VanshajPoonia/cryptoverse",
-    live: "https://cryptoverse.hypnosys.in/",
-  },
+  // {
+  //   img: "https://i.ibb.co/DtMz2Xj/Screenshot-1894.png",
+  //   name: "Cryptoverse",
+  //   ext: "hypnosys.in",
+  //   lang: "ssr",
+  //   git: "https://github.com/VanshajPoonia/cryptoverse",
+  //   live: "https://cryptoverse.hypnosys.in/",
+  // },
   {
     img: "https://user-images.githubusercontent.com/74147463/138558499-e9bdf137-ab10-44b6-9842-6bf772f2c87f.png",
     name: "Vanshaj Poonia",
@@ -161,14 +161,14 @@ export const projects = [
   // },
   
   
-  {
-    img: "https://i.ibb.co/CBnNvnM/Screenshot-1902.png",
-    name: "Codashmeet",
-    ext: "hypnosys.in",
-    lang: "react",
-    git: "https://github.com/VanshajPoonia/codashmeet",
-    live: "https://codashmeet.hypnosys.in"
-  },
+  // {
+  //   img: "https://i.ibb.co/CBnNvnM/Screenshot-1902.png",
+  //   name: "Codashmeet",
+  //   ext: "hypnosys.in",
+  //   lang: "react",
+  //   git: "https://github.com/VanshajPoonia/codashmeet",
+  //   live: "https://codashmeet.hypnosys.in"
+  // },
   {
     img: "https://i.ibb.co/SVbfjs7/Screenshot-494.png",
     name: "Vanshaj",
@@ -234,14 +234,15 @@ export const projects = [
     live: "https://github.com/VanshajPoonia/friday",
   },
 
-  {
-    img: "https://user-images.githubusercontent.com/74147463/138559612-fd799884-b13f-4a51-9c94-1149f9c9dea5.png",
-    name: "Snapchat clone",
-    ext: "web.app",
-    lang: "react",
-    git: "https://github.com/VanshajPoonia/slapchat",
-    live: "https://snapchat-12dbe.web.app",
-  },
+  // {
+  //   img: "https://user-images.githubusercontent.com/74147463/138559612-fd799884-b13f-4a51-9c94-1149f9c9dea5.png",
+  //   name: "Snapchat clone",
+  //   ext: "web.app",
+  //   lang: "react",
+  //   git: "https://github.com/VanshajPoonia/slapchat",
+  //   live: "https://snapchat-12dbe.web.app",
+  // },
+
   {
     img: "https://user-images.githubusercontent.com/74147463/138559776-2d01a85a-4eba-4969-9d5c-ac62a30c262f.png",
     name: "Bhhatsapp",

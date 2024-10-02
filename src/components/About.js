@@ -14,7 +14,7 @@ export default function About() {
         <span className="tags top-tags"> &nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
         <div className="text-zone">
           <h1
-            aria-label=" Hi, I’m Vanshaj,web developer."
+            aria-label=" Hi, I’m Vanshaj,computer engineer."
             className="blast-root"
           >
             <span className="blast" style={{ color: "#23ffde" }}>
@@ -48,17 +48,19 @@ export default function About() {
             Loves to work on problems, quick learner,
             debugger and,
             <br />
-            an avid reader and a person who loves gaming more than NextJs.
+            a fitness lover, an avid reader and a person who loves gaming more than NextJs.
             <br />
             <br />
             My Experience :<br />
-            - Founder, Hypnosys &#91;July 2020 - Present · 2 yrs 10 mos&#93; <br />
-            - Founder, Codash &#91;Dec 2021 - Present · 1 yr 4 mos&#93; <br />
-            - Chief Operating Officer, Brisk Media &#91;Feb 2023 - Present · 2 mos&#93; <br />
-            - Founder, Lexus Solutions  &#91;Feb 2023 - Present · 2 mos&#93; <br />
+            - Founder, Lexus Solutions  &#91;Feb 2023 - Present · 1 yr 10 mos&#93; <br />
+            - Founder, Hypnosys &#91;July 2020 - Present · 4 yrs 5 mos&#93; <br />
+            - Founder, Codash &#91;Dec 2021 - Present · 4 yr 2 mos&#93; <br />
+            - Chief Operating Officer, Brisk Media &#91;Feb 2023 - Present · 1 yr 8 mos&#93; <br />
+            - Founder, Beyond Limits Fitness &#91;June 2024 - Present · 6 mos&#93; <br />
+            - Founder, Vom Publications &#91;Dec 2023 - Present · 1 yr 8 mos&#93; <br />
             - OSD, Google &#91;Oct 2022 - Nov 2022 · 2 mos&#93; <br />
             - Campus Evangelist, Codedamn &#91;Feb 2022 - Aug 2022 · 7 mos&#93; <br />
-            - Open Source Contributor, QuestDB &#91;Oct 2022 - Present · 6 mos&#93; <br />
+            - Open Source Contributor, QuestDB &#91;Oct 2022 - Apr 2023 · 7 mos&#93; <br />
             - Open Source Contributor, Symbl.ai &#91;Oct 2021 - Aug 2022 · 11 mos&#93; <br />
             - Open Source Contributor, Appsmith &#91;Oct 2021 - Feb 2022 · 5 mos&#93; <br />
             - Information Technology Consultant, Bite n Shakes &#91;Oct 2021 - Dec 2021 · 3 mos&#93; <br />
@@ -75,10 +77,10 @@ export default function About() {
             {/* <br /> */}
             Follow me on&nbsp;
             <a
-              href="https://twitter.com/VanshajPoonia/"
+              href="https://instagram.com/VanshajPoonia/"
               style={{ color: "#23ffde" }}
             >
-              Twitter&nbsp;
+              Instagram&nbsp;
             </a>
             to know more or just&nbsp;
             <a href="/contact" style={{ color: "#23ffde" }}>
