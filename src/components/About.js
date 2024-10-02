@@ -14,7 +14,7 @@ export default function About() {
         <span className="tags top-tags"> &nbsp;&nbsp;&nbsp;&lt;body&gt;</span>
         <div className="text-zone">
           <h1
-            aria-label=" Hi, I’m Vanshaj,computer engineer."
+            aria-label=" Hi, I’m Vanshaj,a computer engineer."
             className="blast-root"
           >
             <span className="blast" style={{ color: "#23ffde" }}>
@@ -66,7 +66,6 @@ export default function About() {
             - Information Technology Consultant, Bite n Shakes &#91;Oct 2021 - Dec 2021 · 3 mos&#93; <br />
             - Web Developer turned CTO, Yumhungry &#91;Nov 2020 - Apr 2021 · 6 mos&#93; <br />
             - Full-Stack Web Developer, Talkieto &#91;Dec 2020 - Apr 2021 · 5 mos&#93; <br />
-            - Technical Support Specialist, Honest Clinic &#91;Dec 2020 · 1 mo&#93; <br />
             - Video Editor and Content Manager, Youtube Channel &#91;Mar 2020 - Dec 2020 · 10 mos&#93; <br />
             <br />
             {/* <br /> */}
