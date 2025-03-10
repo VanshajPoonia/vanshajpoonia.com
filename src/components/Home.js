@@ -81,9 +81,6 @@ export default function Home() {
             <a href="https://github.com/VanshajPoonia/">
               <i className="fab fa-github fa-3x"></i>
             </a>
-            <a href="https://twitter.com/VanshajPoonia/">
-              <i className="fab fa-twitter fa-3x"></i>
-            </a>
             <a href="https://dev.to/vanshajpoonia/">
               <i className="fab fa-dev fa-3x"></i>
             </a>
