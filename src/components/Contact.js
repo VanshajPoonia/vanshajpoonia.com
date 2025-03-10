@@ -83,7 +83,7 @@ export default function Contact() {
               autoComplete="off"
               onSubmit={handleSubmit}
             >
-              <input type="hidden" name="_subject" value="Vanshajpoonia.com" />
+              <input type="hidden" name="_subject" value="iamvanshajpoonia.vercel.app" />
               <motion.input
                 id="name"
                 type="text"
@@ -156,10 +156,10 @@ export default function Contact() {
             >
               Or you can just mail me at ~&nbsp;
               <a
-                href="mailto:hey@vanshajpoonia.com"
+                href="mailto:vanshajfirebase@gmail.com"
                 style={{ color: "#23ffde", fontSize: "1.3em" }}
               >
-                hey@vanshajpoonia.com
+                vanshajfirebase@gmail.com
               </a>
             </motion.p>
           </div>

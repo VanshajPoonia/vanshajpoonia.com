@@ -29,7 +29,7 @@ export const projects = [
     ext: "netlify.app",
     lang: "ssr",
     git: "https://github.com/VanshajPoonia/portfoliosite-sanity-jsm",
-    live: "https://portfolio.vanshajpoonia.com/",
+    live: "https://vanshaj.vercel.app/",
   },
   // {
   //   img: "https://i.ibb.co/RC6NTKV/Screenshot-1889.png",

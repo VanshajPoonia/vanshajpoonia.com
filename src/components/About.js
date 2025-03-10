@@ -52,21 +52,19 @@ export default function About() {
             <br />
             <br />
             My Experience :<br />
-            - Founder, Lexus Solutions  &#91;Feb 2023 - Present · 1 yr 10 mos&#93; <br />
-            - Founder, Hypnosys &#91;July 2020 - Present · 4 yrs 5 mos&#93; <br />
-            - Founder, Codash &#91;Dec 2021 - Present · 4 yr 2 mos&#93; <br />
-            - Chief Operating Officer, Brisk Media &#91;Feb 2023 - Present · 1 yr 8 mos&#93; <br />
-            - Founder, Beyond Limits Fitness &#91;June 2024 - Present · 6 mos&#93; <br />
-            - Founder, Vom Publications &#91;Dec 2023 - Present · 1 yr 8 mos&#93; <br />
-            - OSD, Google &#91;Oct 2022 - Nov 2022 · 2 mos&#93; <br />
-            - Campus Evangelist, Codedamn &#91;Feb 2022 - Aug 2022 · 7 mos&#93; <br />
-            - Open Source Contributor, QuestDB &#91;Oct 2022 - Apr 2023 · 7 mos&#93; <br />
-            - Open Source Contributor, Symbl.ai &#91;Oct 2021 - Aug 2022 · 11 mos&#93; <br />
-            - Open Source Contributor, Appsmith &#91;Oct 2021 - Feb 2022 · 5 mos&#93; <br />
-            - Information Technology Consultant, Bite n Shakes &#91;Oct 2021 - Dec 2021 · 3 mos&#93; <br />
-            - Web Developer turned CTO, Yumhungry &#91;Nov 2020 - Apr 2021 · 6 mos&#93; <br />
-            - Full-Stack Web Developer, Talkieto &#91;Dec 2020 - Apr 2021 · 5 mos&#93; <br />
-            - Video Editor and Content Manager, Youtube Channel &#91;Mar 2020 - Dec 2020 · 10 mos&#93; <br />
+            - Founder, Hypnosys &#91;July 2020 - Present&#93; <br />
+            - Founder, Codash &#91;Dec 2021 - Present&#93; <br />
+            - Founder, Beyond Limits Fitness &#91;June 2024 - Present&#93; <br />
+            - Founder, Vom Publications &#91;Dec 2023 - Present&#93; <br />
+            - OSD, Google &#91;Oct 2022 - Nov 2022&#93; <br />
+            - Campus Evangelist, Codedamn &#91;Feb 2022 - Aug 2022&#93; <br />
+            - Open Source Contributor, QuestDB &#91;Oct 2022 - Apr 2023&#93; <br />
+            - Open Source Contributor, Symbl.ai &#91;Oct 2021 - Aug 2022&#93; <br />
+            - Open Source Contributor, Appsmith &#91;Oct 2021 - Feb 2022&#93; <br />
+            - Information Technology Consultant, Bite n Shakes &#91;Oct 2021 - Dec 2021&#93; <br />
+            - Web Developer turned CTO, Yumhungry &#91;Nov 2020 - Apr 2021&#93; <br />
+            - Full-Stack Web Developer, Talkieto &#91;Dec 2020 - Apr 2021&#93; <br />
+            - Video Editor and Content Manager, Youtube Channel &#91;Mar 2020 - Dec 2020 &#93; <br />
             <br />
             {/* <br /> */}
             {/* <br /> */}

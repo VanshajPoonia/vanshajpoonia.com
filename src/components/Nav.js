@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <>
       <div id="nav-bar">
-        <a href="https://vanshajpoonia.com/">
+        <a href="https://iamvanshajpoonia.vercel.app">
           <img
             className="logo"
             src="https://avatars.githubusercontent.com/u/74147463?v=4"
