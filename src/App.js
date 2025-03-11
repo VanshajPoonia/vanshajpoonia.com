@@ -2,7 +2,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
+  Routes,
   Redirect,
 } from "react-router-dom";
 
@@ -21,7 +21,7 @@ export default function App() {
         id="music"
         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Shuffle_A.mp3"
       ></audio>
-      <Switch>
+      <Routes>
         <Route path={process.env.PUBLIC_URL + "/"} exact>
           <Home />
         </Route>
@@ -38,7 +38,7 @@ export default function App() {
           <Contact />
         </Route>
         <Redirect to="/" />
-      </Switch>
+      </Routes>
     </Router>
   );
 }
