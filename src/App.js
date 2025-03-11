@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Redirect,
+  Navigate,
 } from "react-router-dom";
 
 import Nav from "./components/Nav";
@@ -37,7 +37,7 @@ export default function App() {
         <Route path={process.env.PUBLIC_URL + "/contact"} exact>
           <Contact />
         </Route>
-        <Redirect to="/" />
+        <Navigate to="/" />
       </Routes>
     </Router>
   );
