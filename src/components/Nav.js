@@ -16,9 +16,8 @@ export default function Nav() {
         <nav>
           <NavLink
             to={process.env.PUBLIC_URL + "/"}
-            className="link"
-            activeClassName="active-nav"
-            exact
+            className={({ isActive }) => (isActive ? "link active-nav" : "link")}
+            end
           >
             <i className="fas fa-home fa-2x"></i>
             <div className="overlay">
@@ -27,8 +26,7 @@ export default function Nav() {
           </NavLink>
           <NavLink
             to={process.env.PUBLIC_URL + "/about"}
-            className="link"
-            activeClassName="active-nav"
+            className={({ isActive }) => (isActive ? "link active-nav" : "link")}
           >
             <i className="image fas fa-user fa-2x"></i>
             <div className="overlay">
@@ -37,8 +35,7 @@ export default function Nav() {
           </NavLink>
           <NavLink
             to={process.env.PUBLIC_URL + "/skills"}
-            className="link"
-            activeClassName="active-nav"
+            className={({ isActive }) => (isActive ? "link active-nav" : "link")}
           >
             <i className="fas fa-cogs fa-2x"></i>
             <div className="overlay">
@@ -47,8 +44,7 @@ export default function Nav() {
           </NavLink>
           <NavLink
             to={process.env.PUBLIC_URL + "/work"}
-            className="link"
-            activeClassName="active-nav"
+            className={({ isActive }) => (isActive ? "link active-nav" : "link")}
           >
             <i className="fas fa-eye fa-2x"></i>
             <div className="overlay">
@@ -57,8 +53,7 @@ export default function Nav() {
           </NavLink>
           <NavLink
             to={process.env.PUBLIC_URL + "/contact"}
-            className="link"
-            activeClassName="active-nav"
+            className={({ isActive }) => (isActive ? "link active-nav" : "link")}
           >
             <i className="fas fa-envelope fa-2x"></i>
             <div className="overlay">
@@ -85,31 +80,15 @@ export default function Nav() {
               <i className="fab fa-github"></i>
             </a>
           </li>
-          <li>
-            {/* <a
-              href="https://twitter.com/VanshajPoonia"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-twitter"></i>
-            </a> */}
-          </li>
         </ul>
       </div>
 
-      {/* <a className="bkmrk" target="_blank" href="./Vanshaj Poonia's Resume.pdf"> */}
       <a
         className="bkmrk"
         href="https://drive.google.com/file/d/1FKmqeAHw8_DMb3b9UIlf3HBeiPFqzvo0/view?usp=sharing"
         target="_blank"
-        rel="noopener ener noreferrer"
+        rel="noopener noreferrer"
       >
-      {/* <a
-        className="bkmrk"
-        href="https://drive.google.com/file/d/1zdTdmMj9f6dJruoF0sMS2hyCrjhFOnNP/view?usp=sharing"
-        target="_blank"
-        rel="noopener ener noreferrer"
-      > */}
         <img
           src="https://raw.githubusercontent.com/smrnjeet222/smrnjeet222/master/assets/blogdark.png"
           alt="Resume"

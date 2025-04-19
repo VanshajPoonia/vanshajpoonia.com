@@ -18,34 +18,32 @@ const item = {
   show: { scale: 1 },
 };
 
-function Post({ img, name, ext, git, live }) {
-  return (
-    <motion.div className="box" variants={item}>
-      <img
-        alt="projimg"
-        src={img}
-        className="image"
-        style={{ backgroundColor: "#c2c2c2" }}
-      />
-      <button className="prj">
-        {name}
-        <span> . {ext}</span>
-      </button>
-      <a href={git} className="show1">
-        Learn More
-      </a>
-      <a href={live} className="show2">
-        Visit
-      </a>
-    </motion.div>
-  );
-}
+const Post = React.memo(({ img, name, ext, git, live }) => (
+  <motion.div className="box" variants={item} key={name}>
+    <img
+      alt="projimg"
+      src={img}
+      className="image"
+      style={{ backgroundColor: "#c2c2c2" }}
+    />
+    <button className="prj">
+      {name}
+      <span> . {ext}</span>
+    </button>
+    <a href={git} className="show1">
+      Learn More
+    </a>
+    <a href={live} className="show2">
+      Visit
+    </a>
+  </motion.div>
+));
 
 export default function Work() {
   const [filter, setFilter] = useState("");
 
   useEffect(() => {
-    document.title = "Vanshaj Poonia | Projects ";
+    document.title = "Vanshaj Poonia | Projects";
   }, []);
 
   return (
@@ -56,13 +54,12 @@ export default function Work() {
         <select
           className="select-css"
           value={filter}
-          defaultValue={filter}
           onChange={({ target: { value } }) => setFilter(value)}
         >
           <option value="">all</option>
           <option value="ssr">SSR</option>
-          <option value="react">react</option>
-          <option value="py">py</option>
+          <option value="react">React</option>
+          <option value="py">Python</option>
           <option value="html n css">HTML N CSS</option>
           <option value="hybrid">Hybrid</option>
         </select>
@@ -76,7 +73,7 @@ export default function Work() {
         {projects
           .filter((d) => d.lang.search(filter) !== -1)
           .map((d) => (
-            <Post {...d} />
+            <Post key={d.name} {...d} />
           ))}
       </motion.div>
     </div>

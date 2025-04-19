@@ -1,6 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Guitar(props) {
+  const [isPlaying, setIsPlaying] = useState(false); // Track whether the guitar is playing
+
+  useEffect(() => {
+    // This effect handles the play/pause icon switching logic.
+    const playIcon = document.querySelector('.play-icon');
+    const pauseIcons = document.querySelectorAll('.pause-icon');
+
+    // On every render, we update the icons based on the current play/pause state.
+    if (isPlaying) {
+      playIcon.style.stroke = "#23ffde"; // Change play icon color when playing
+      pauseIcons.forEach((icon) => icon.style.display = "none"); // Hide pause icons when playing
+    } else {
+      playIcon.style.stroke = "#FDFFFC"; // Default color for play icon when paused
+      pauseIcons.forEach((icon) => icon.style.display = "block"); // Show pause icons when paused
+    }
+  }, [isPlaying]); // Re-run the effect whenever 'isPlaying' changes
+
+  const togglePlayPause = () => {
+    setIsPlaying((prev) => !prev); // Toggle the play/pause state
+  };
   return (
     <>
       <svg viewBox="470 300 1200 1400" {...props}>

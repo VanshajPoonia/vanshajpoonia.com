@@ -22,22 +22,13 @@ export default function App() {
         src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Shuffle_A.mp3"
       ></audio>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + "/"} exact>
-          <Home />
-        </Route>
-        <Route path={process.env.PUBLIC_URL + "/about"} exact>
-          <About />
-        </Route>
-        <Route path={process.env.PUBLIC_URL + "/skills"} exact>
-          <Skills />
-        </Route>
-        <Route path={process.env.PUBLIC_URL + "/work"} exact>
-          <Work />
-        </Route>
-        <Route path={process.env.PUBLIC_URL + "/contact"} exact>
-          <Contact />
-        </Route>
-        <Navigate to="/" />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* catch-all redirect */}
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );
